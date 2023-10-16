@@ -1,0 +1,173 @@
+/* xs */
+@media(max-width: 576px) {
+    .fs-170 {
+        font-size: 100px;
+    }
+
+    .info h2 {
+        text-align: center;
+    }
+
+    .title-skill {
+        text-align: center;
+        writing-mode: unset;
+        transform: scale(1, 1);
+        height: auto;
+    }
+
+    .mywork {
+        overflow-x: scroll;
+    }
+
+    .content-title {
+        text-align: center;
+        writing-mode: unset;
+        transform: scale(1, 1);
+        height: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contenct-box>div {
+        margin-left: 40px;
+    }
+
+    .timeline{
+        overflow-x: scroll;
+    }
+    .up-box .timeline-box{
+        margin: 0px 10px;
+    }
+
+}
+
+/* sm */
+@media(min-width: 576px) {
+    .fs-170 {
+        font-size: 150px;
+    }
+
+    .info h2 {
+        text-align: center;
+    }
+
+    .title-skill {
+        text-align: center;
+        writing-mode: unset;
+        transform: scale(1, 1);
+        height: auto;
+    }
+
+    .mywork {
+        overflow-x: scroll;
+    }
+
+    .content-title {
+        text-align: center;
+        writing-mode: unset;
+        transform: scale(1, 1);
+        height: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contenct-box>div {
+        margin-left: 40px;
+    }
+
+    .contenct-box .card {
+        margin-left: 100px;
+    }
+    .timeline{
+        overflow-x: scroll;
+    }
+    .up-box .timeline-box{
+        margin: 0px 10px;
+    }
+    .down-box .timeline-box{
+        margin: 0px 10px;
+    }
+}
+
+/* md */
+@media(min-width: 768px) {
+    .fs-170 {
+        font-size: 170px;
+    }
+
+    .title-skill {
+        text-align: center;
+        writing-mode: vertical-rl;
+        transform: scale(-1, -1);
+        height: auto;
+    }
+
+    .content-title {
+        text-align: center;
+        writing-mode: unset;
+        transform: scale(1, 1);
+        height: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contenct-box .card {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .timeline{
+        overflow-x: scroll;
+    }
+    .down-box .timeline-box{
+        margin: 0px 10px;
+    }
+}
+
+/* lg */
+@media(min-width: 992px) {
+    .mywork {
+        overflow-x: hidden;
+    }
+
+    .content-title {
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: center;
+        writing-mode: vertical-rl;
+        transform: scale(-1, -1);
+        height: 100vh;
+    }
+
+    .contenct-box {
+        margin: 0;
+    }
+    .timeline{
+        overflow-x: scroll;
+    }
+    .up-box .timeline-box{
+        margin: 0px 10px;
+    }
+    .down-box .timeline-box{
+        margin: 0px 10px;
+    }
+}
+
+/* xl */
+@media(min-width: 1200px) {
+    .timeline{
+        overflow-x: scroll;
+    }
+    .up-box .timeline-box{
+        margin: 0px;
+    }
+    .down-box .timeline-box{
+        margin: 0px ;
+    }
+}
+
+/* xxl */
+@media(min-width: 1400px) {
+    .timeline{
+        overflow-x: visible;
+    }
+}
