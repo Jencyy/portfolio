@@ -82,8 +82,8 @@ export function Hero() {
                 transition={{ duration: 0.6, delay: 0.8, ease: 'easeOut' }}
                 style={{ fontSize: 'clamp(14px,1.4vw,16px)', color: 'var(--text-muted)', lineHeight: 1.8, maxWidth: 500, marginBottom: 28 }}
               >
-                Hi, I'm <strong style={{ color: 'var(--text)', fontWeight: 700 }}>Jency Sodvadiya</strong> — a 
-                <strong> Full Stack Developer (MERN) & Aspiring AI/ML Engineer</strong>. 
+                Hi, I'm <strong style={{ color: 'var(--text)', fontWeight: 700 }}>Jency Sodvadiya</strong> — a
+                <strong> Full Stack Developer (MERN) & Aspiring AI/ML Engineer</strong>.
                 Building scalable web applications and exploring AI-driven solutions to solve real-world problems.
               </motion.p>
 
@@ -194,11 +194,11 @@ export function Hero() {
                     { n: '7+', l: 'Months Exp.' }, { n: '5+', l: 'Projects' }, { n: '100%', l: 'Dedication' }
 
                   ].map(({ n, l }) => (
-                     <div key={l} style={{ background: '#fff', border: '1px solid var(--border)', borderRadius: 10, padding: '12px 14px', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
-                       <p style={{ fontSize: 18, fontWeight: 800, letterSpacing: '-0.04em', color: 'var(--accent)' }}>{n}</p>
-                       <p style={{ fontSize: 10, color: 'var(--text-subtle)', marginTop: 2, fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>{l}</p>
-                     </div>
-                   ))}
+                    <div key={l} style={{ background: '#fff', border: '1px solid var(--border)', borderRadius: 10, padding: '12px 14px', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>
+                      <p style={{ fontSize: 18, fontWeight: 800, letterSpacing: '-0.04em', color: 'var(--accent)' }}>{n}</p>
+                      <p style={{ fontSize: 10, color: 'var(--text-subtle)', marginTop: 2, fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>{l}</p>
+                    </div>
+                  ))}
                 </div>
               </motion.div>
             )}
@@ -206,14 +206,14 @@ export function Hero() {
         </div>
 
         {/* Marquee */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.5 }}
           style={{ borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)', padding: '14px 0', marginTop: 56, background: 'var(--bg2)' }}
         >
           <Marquee items={HERO_TAGS} speed={28} />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
 
       <style>{`

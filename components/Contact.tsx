@@ -50,7 +50,6 @@ export function Contact() {
               <Send size={17} /> Say Hello
             </Link>
           </motion.div>
-
           <motion.div variants={fadeUp} className="social-grid">
             {socials.map(({ icon: Icon, label, sub, href }) => (
               <Link key={label} href={href} target="_blank" data-hover="true"
@@ -69,11 +68,9 @@ export function Contact() {
           </motion.div>
         </motion.div>
       </div>
-
       <div style={{ borderTop: '1px solid var(--border)', marginTop: 80, padding: '14px 0', background: '#fff' }}>
         <Marquee items={ticker} direction="right" speed={22} />
       </div>
-
       <style>{`
         .social-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
         @media (max-width: 600px) { .social-grid { grid-template-columns: 1fr; } }

@@ -36,15 +36,15 @@ export function Experience() {
             {experiences.map((exp, index) => (
               <motion.div key={index} variants={fadeUp} style={{ position: 'relative' }}>
                 {/* Header for each experience */}
-                <div style={{ 
-                  display: 'flex', 
-                  justifyContent: 'space-between', 
-                  alignItems: 'flex-start', 
-                  flexWrap: 'wrap', 
-                  gap: 20, 
-                  paddingBottom: 24, 
-                  borderBottom: '1px solid var(--border)', 
-                  marginBottom: 32 
+                <div style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'flex-start',
+                  flexWrap: 'wrap',
+                  gap: 20,
+                  paddingBottom: 24,
+                  borderBottom: '1px solid var(--border)',
+                  marginBottom: 32
                 }}>
                   <div style={{ flex: 1, minWidth: '300px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8 }}>
@@ -52,16 +52,16 @@ export function Experience() {
                         {exp.role}
                       </h2>
                       {exp.current && (
-                        <span style={{ 
-                          display: 'inline-flex', 
-                          alignItems: 'center', 
-                          gap: 6, 
-                          padding: '4px 12px', 
-                          borderRadius: 100, 
-                          background: 'rgba(5,150,105,0.08)', 
-                          border: '1px solid rgba(5,150,105,0.2)', 
-                          fontSize: 11, 
-                          fontWeight: 700, 
+                        <span style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: 6,
+                          padding: '4px 12px',
+                          borderRadius: 100,
+                          background: 'rgba(5,150,105,0.08)',
+                          border: '1px solid rgba(5,150,105,0.2)',
+                          fontSize: 11,
+                          fontWeight: 700,
                           color: 'var(--green)',
                           textTransform: 'uppercase',
                           letterSpacing: '0.05em'
@@ -71,7 +71,7 @@ export function Experience() {
                         </span>
                       )}
                     </div>
-                    
+
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, alignItems: 'center', color: 'var(--text-muted)', fontSize: 14 }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                         <Building2 size={16} style={{ color: 'var(--accent)' }} />
@@ -103,42 +103,42 @@ export function Experience() {
                     <motion.div key={i}
                       whileHover={{ borderColor: 'var(--accent-ring)', boxShadow: 'var(--shadow)' }}
                       transition={{ duration: 0.2 }}
-                      style={{ 
-                        display: 'flex', 
-                        gap: 16, 
-                        padding: '24px', 
-                        background: '#fff', 
-                        border: '1px solid var(--border)', 
-                        borderRadius: 16, 
+                      style={{
+                        display: 'flex',
+                        gap: 16,
+                        padding: '24px',
+                        background: '#fff',
+                        border: '1px solid var(--border)',
+                        borderRadius: 16,
                         boxShadow: 'var(--shadow-sm)',
                         transition: 'all 0.2s ease'
                       }}
                     >
-                      <div style={{ 
-                        width: 44, 
-                        height: 44, 
-                        borderRadius: 12, 
-                        background: 'var(--accent-light)', 
-                        border: '1px solid var(--accent-ring)', 
-                        display: 'flex', 
-                        alignItems: 'center', 
-                        justifyContent: 'center', 
-                        flexShrink: 0 
+                      <div style={{
+                        width: 44,
+                        height: 44,
+                        borderRadius: 12,
+                        background: 'var(--accent-light)',
+                        border: '1px solid var(--accent-ring)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0
                       }}>
                         <bullet.Icon size={20} style={{ color: 'var(--accent)' }} />
                       </div>
                       <div>
-                        <span style={{ 
-                          display: 'inline-block', 
-                          fontSize: 10, 
-                          fontWeight: 800, 
-                          color: 'var(--accent)', 
-                          letterSpacing: '0.1em', 
-                          textTransform: 'uppercase', 
-                          marginBottom: 8, 
-                          background: 'var(--accent-light)', 
-                          padding: '2px 10px', 
-                          borderRadius: 6 
+                        <span style={{
+                          display: 'inline-block',
+                          fontSize: 10,
+                          fontWeight: 800,
+                          color: 'var(--accent)',
+                          letterSpacing: '0.1em',
+                          textTransform: 'uppercase',
+                          marginBottom: 8,
+                          background: 'var(--accent-light)',
+                          padding: '2px 10px',
+                          borderRadius: 6
                         }}>
                           {bullet.badge}
                         </span>
@@ -154,7 +154,6 @@ export function Experience() {
           </div>
         </motion.div>
       </div>
-
       <style>{`
         .exp-grid { 
           display: grid; 
