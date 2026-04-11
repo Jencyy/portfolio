@@ -12,7 +12,7 @@ const projects = [
     problem: 'Needed a scalable functional online store with robust authentication and product management capabilities.',
     solution: 'Developed frontend and backend integrating Firebase for real-time database management and authentication flows.',
     tech: ['React / Vite', 'Firebase', 'Tailwind CSS'],
-    live: '#', github: 'https://portfolio-seven-snowy-hy6qll95c8.vercel.app/',
+    live: '#', github: 'https://github.com/Jencyy/Amysho',
     accent: 'var(--accent)', borderc: 'rgba(37,99,235,0.18)',
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     problem: 'Businesses needed a simple, reliable way to manage active stock levels and perform detailed filtering.',
     solution: 'Developed a comprehensive stock management system with advanced filtering algorithms and admin controls.',
     tech: ['MongoDB', 'Express.js', 'React', 'Node.js (MERN)'],
-    live: '#', github: 'https://github.com/Jencyy/B2B-Inventory-Management',
+    live: '#', github: 'https://github.com/Jencyy/B2Binventory',
     accent: 'var(--green)', borderc: 'rgba(5,150,105,0.18)',
   },
 ];
