@@ -158,7 +158,7 @@ export function Hero() {
                 <div style={{ position: 'relative', width: '100%', maxWidth: 360, aspectRatio: '1', margin: '0 auto' }}>
                   <div style={{ position: 'absolute', inset: -4, borderRadius: '50%', background: 'linear-gradient(135deg, var(--accent), var(--accent2))', opacity: 0.6, zIndex: 0 }} />
                   <div style={{ position: 'relative', zIndex: 1, width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '5px solid #fff', boxShadow: 'var(--shadow-lg)' }}>
-                    <Image src="/profile.jfif" alt="Jency Sodvadiya" fill style={{ objectFit: 'cover' }} />
+                    <Image src="/profile.jpg" alt="Jency Sodvadiya" fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div style={{ position: 'absolute', bottom: 12, right: -12, background: '#fff', border: '1px solid var(--border)', borderRadius: 12, padding: '10px 16px', zIndex: 2, boxShadow: 'var(--shadow)' }}>
                     <p style={{ fontSize: 11, color: 'var(--text-subtle)', marginBottom: 2, fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Experience</p>
