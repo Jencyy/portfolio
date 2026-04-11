@@ -14,7 +14,7 @@ const info = [
   { icon: Briefcase, label: 'Focus', value: 'MERN Stack & AI Integration' },
   { icon: GraduationCap, label: 'Degree', value: 'Diploma in Computer Eng. (2026)' },
   { icon: Sparkles, label: 'Course', value: 'Apna College AI/ML Prime Batch' },
-  { icon: MapPin, label: 'Location', value: 'Surat, Gujarat, India' },
+  { icon: MapPin, label: 'Location', value: 'Gujarat, India' },
 ];
 
 export function About() {

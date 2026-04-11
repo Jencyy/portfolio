@@ -8,7 +8,7 @@ import { ArrowRight, Download, Github, Linkedin, Mail, CheckCircle2 } from 'luci
 import { Marquee } from './Marquee';
 
 const HERO_TAGS = ['React.js', 'Next.js', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'REST APIs', 'Tailwind CSS', 'Git', 'Machine Learning', 'AI'];
-const SHOW_PHOTO = false; // Set to true after adding /public/profile.jpg
+const SHOW_PHOTO = true; // Enabled to show the professional portrait impact
 
 const word: import('framer-motion').Variants = {
   hidden: { y: '105%', opacity: 0 },
@@ -20,7 +20,7 @@ const container: import('framer-motion').Variants = {
 };
 
 const highlights = [
-  '7 months professional MERN experience',
+  '7+ months professional MERN experience',
   'Fast learner & highly adaptable',
   'Business mindset & strong debugging',
 ];
@@ -158,7 +158,7 @@ export function Hero() {
                 <div style={{ position: 'relative', width: '100%', maxWidth: 360, aspectRatio: '1', margin: '0 auto' }}>
                   <div style={{ position: 'absolute', inset: -4, borderRadius: '50%', background: 'linear-gradient(135deg, var(--accent), var(--accent2))', opacity: 0.6, zIndex: 0 }} />
                   <div style={{ position: 'relative', zIndex: 1, width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden', border: '5px solid #fff', boxShadow: 'var(--shadow-lg)' }}>
-                    <Image src="/profile.jpg" alt="Jency Sodvadiya" fill style={{ objectFit: 'cover' }} />
+                    <Image src="/profile.jfif" alt="Jency Sodvadiya" fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div style={{ position: 'absolute', bottom: 12, right: -12, background: '#fff', border: '1px solid var(--border)', borderRadius: 12, padding: '10px 16px', zIndex: 2, boxShadow: 'var(--shadow)' }}>
                     <p style={{ fontSize: 11, color: 'var(--text-subtle)', marginBottom: 2, fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Experience</p>
@@ -182,7 +182,7 @@ export function Hero() {
                   <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>name:</span> <span style={{ color: '#86efac' }}>'Jency Sodvadiya'</span>,</p>
                   <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>role:</span> <span style={{ color: '#86efac' }}>'Full Stack + AI/ML'</span>,</p>
                   <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>experience:</span> <span style={{ color: '#fdba74' }}>7</span><span style={{ color: '#94a3b8' }}>, <span style={{ color: '#475569' }}>// months</span></span></p>
-                  <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>location:</span> <span style={{ color: '#86efac' }}>'Surat, India'</span>,</p>
+                  <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>location:</span> <span style={{ color: '#86efac' }}>'India'</span>,</p>
                   <p style={{ marginLeft: 18 }}><span style={{ color: '#94a3b8' }}>stack:</span> [<span style={{ color: '#86efac' }}>'MERN', 'AI/ML'</span>],</p>
                   <p>{'}'}</p>
                   <p style={{ marginTop: 6, color: '#475569' }}>// Eager to solve real-world problems</p>

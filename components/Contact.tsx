@@ -9,7 +9,7 @@ import { fadeUp } from '@/lib/variants';
 const socials = [
   { icon: Github, label: 'GitHub', sub: 'github.com/Jencyy', href: 'https://github.com/Jencyy' },
   { icon: Linkedin, label: 'LinkedIn', sub: 'in/jency-sodvadiya', href: 'https://www.linkedin.com/in/jency-sodvadiya/' },
-  { icon: Mail, label: 'Email', sub: 'jencysodvadiya@gmail.com', href: 'mailto:jencysodvadiya@gmail.com' },
+  { icon: Mail, label: 'Email', sub: 'jencysodvadiya@gmail.com', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=jencysodvadiya@gmail.com' },
 ];
 const ticker = ['Open to Work', 'MERN Stack Dev', 'Available Now', 'Based in India', 'Let\'s Connect', 'Hire Me'];
 
@@ -42,17 +42,19 @@ export function Contact() {
           </motion.p>
 
           <motion.div variants={fadeUp} style={{ marginBottom: 40 }}>
-            <Link href="mailto:jencysodvadiya@gmail.com" data-hover="true"
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=jencysodvadiya@gmail.com"
+              target="_blank"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 10, fontSize: 15, fontWeight: 700, color: '#fff', textDecoration: 'none', padding: '14px 36px', borderRadius: 10, background: 'var(--accent)', boxShadow: '0 6px 24px rgba(37,99,235,0.35)', transition: 'all 0.2s' }}
               onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--accent-hover)'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(37,99,235,0.45)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
               onMouseLeave={(e) => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.boxShadow = '0 6px 24px rgba(37,99,235,0.35)'; e.currentTarget.style.transform = 'translateY(0)'; }}
             >
               <Send size={17} /> Say Hello
-            </Link>
+            </a>
           </motion.div>
           <motion.div variants={fadeUp} className="social-grid">
             {socials.map(({ icon: Icon, label, sub, href }) => (
-              <Link key={label} href={href} target="_blank" data-hover="true"
+              <a key={label} href={href} target="_blank" data-hover="true" rel="noopener noreferrer"
                 style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 16px', background: '#fff', border: '1px solid var(--border)', borderRadius: 12, textDecoration: 'none', boxShadow: 'var(--shadow-sm)', transition: 'all 0.2s' }}
                 onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent-ring)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(37,99,235,0.1)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.boxShadow = 'var(--shadow-sm)'; e.currentTarget.style.transform = 'translateY(0)'; }}
@@ -63,7 +65,7 @@ export function Contact() {
                   <p style={{ fontSize: 11, color: 'var(--text-subtle)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{sub}</p>
                 </div>
                 <ArrowUpRight size={14} style={{ color: 'var(--text-subtle)', flexShrink: 0 }} />
-              </Link>
+              </a>
             ))}
           </motion.div>
         </motion.div>

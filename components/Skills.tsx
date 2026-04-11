@@ -23,7 +23,7 @@ const groups = [
   {
     cat: 'Tools & AI/ML', Icon: Sparkles,
     bg: 'rgba(8,145,178,0.05)', border: 'rgba(8,145,178,0.18)', iconColor: 'var(--accent3)',
-    items: ['Python', 'NumPy', 'Pandas', 'Git & GitHub', 'VS Code', 'Postman'],
+    items: ['Python', 'NumPy', 'Pandas', 'Git & GitHub','Postman','Matplotlib'],
   },
 ];
 
@@ -38,7 +38,7 @@ export function Skills() {
           <motion.div variants={fadeUp} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 16, marginBottom: 40 }}>
             <h2 style={{ fontSize: 'clamp(1.8rem,3vw,2.8rem)', fontWeight: 800, letterSpacing: '-0.04em', lineHeight: 1.1, maxWidth: 480 }}>
               My core stack,{' '}
-              <span style={{ color: 'var(--accent)' }}>and what I\'m exploring.</span>
+              <span style={{ color: 'var(--accent)' }}>and what I'm exploring.</span>
             </h2>
             <p style={{ fontSize: 14, color: 'var(--text-subtle)', maxWidth: 260, lineHeight: 1.6 }}>
               Tools applied in real projects and continuous learning.

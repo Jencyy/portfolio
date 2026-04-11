@@ -42,7 +42,7 @@ export function Navbar() {
       >
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
           <Link href="/" data-hover="true"
-            style={{ fontWeight: 800, fontSize: 17, letterSpacing: '-0.05em', color: 'var(--text)', textDecoration: 'none' }}>
+            style={{ fontWeight: 800, fontSize: 26, letterSpacing: '-0.05em', color: 'var(--text)', textDecoration: 'none' }}>
             Jency<span style={{ color: 'var(--accent)' }}>.</span>
           </Link>
 
