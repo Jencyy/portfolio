@@ -12,7 +12,7 @@ const projects = [
     problem: 'Needed a scalable functional online store with robust authentication and product management capabilities.',
     solution: 'Developed frontend and backend integrating Firebase for real-time database management and authentication flows.',
     tech: ['React / Vite', 'Firebase', 'Tailwind CSS'],
-    live: '#', github: '#',
+    live: '#', github: 'https://portfolio-seven-snowy-hy6qll95c8.vercel.app/',
     accent: 'var(--accent)', borderc: 'rgba(37,99,235,0.18)',
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     problem: 'Users required a centralized system to create, manage, and read blogs with secure authentication.',
     solution: 'Built a complete CRUD blogging system featuring user authentication (Passport.js), comments, and image uploads.',
     tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Passport.js'],
-    live: '#', github: '#',
+    live: '#', github: 'https://github.com/Jencyy/BlogPanel',
     accent: 'var(--accent2)', borderc: 'rgba(124,58,237,0.18)',
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     problem: 'Businesses needed a simple, reliable way to manage active stock levels and perform detailed filtering.',
     solution: 'Developed a comprehensive stock management system with advanced filtering algorithms and admin controls.',
     tech: ['MongoDB', 'Express.js', 'React', 'Node.js (MERN)'],
-    live: '#', github: '#',
+    live: '#', github: 'https://github.com/Jencyy/B2B-Inventory-Management',
     accent: 'var(--green)', borderc: 'rgba(5,150,105,0.18)',
   },
 ];
