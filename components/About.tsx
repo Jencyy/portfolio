@@ -34,7 +34,7 @@ export function About() {
               </motion.h2>
 
               {[
-                "I am a Full Stack Developer specializing in the MERN stack, with hands-on experience building real-world applications and working in a professional environment. I enjoy working on both frontend and backend, creating complete end-to-end solutions that are scalable and user-friendly.",
+                "Hi, I'm Jency Sodvadiya. I am a Full Stack Developer specializing in the MERN stack, with hands-on experience building real-world applications and working in a professional environment. I enjoy working on both frontend and backend, creating complete end-to-end solutions that are scalable and user-friendly.",
                 "My journey in tech started out of curiosity and quickly turned into passion because I never get bored exploring new technologies. I have built multiple projects including e-commerce platforms, blog systems, and management tools, while also gaining industry experience in debugging, ad integration, and performance improvements.",
                 "Currently, I am expanding my skills into AI/ML, learning tools like Python, NumPy, and Pandas through the Apna College Prime Batch. My long-term goal is to combine web development and AI to build impactful products and eventually grow a business in the tech space.",
               ].map((text, i) => (
