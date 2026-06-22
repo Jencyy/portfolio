@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://portfolio-seven-snowy-hy6qll95c8.vercel.app/', // Placeholder URL
+    url: 'https://portfolio-seven-snowy-hy6qll95c8.vercel.app/',
     title: 'Jency Sodvadiya — MERN Stack Developer',
     description: 'Explore the portfolio of Jency Sodvadiya, highlighting projects in MERN stack and AI/ML.',
     siteName: 'Jency Sodvadiya Portfolio'

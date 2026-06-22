@@ -8,22 +8,22 @@ const groups = [
   {
     cat: 'Frontend', Icon: Monitor,
     bg: 'rgba(37,99,235,0.05)', border: 'rgba(37,99,235,0.18)', iconColor: 'var(--accent)',
-    items: ['React (Vite)', 'Tailwind CSS', 'JavaScript', 'HTML/CSS', 'Bootstrap', 'jQuery'],
+    items: ['Next.js', 'React (Vite)', 'Tailwind CSS', 'JavaScript', 'HTML/CSS', 'Bootstrap', 'jQuery'],
   },
   {
     cat: 'Backend', Icon: Server,
     bg: 'rgba(124,58,237,0.05)', border: 'rgba(124,58,237,0.18)', iconColor: 'var(--accent2)',
-    items: ['Node.js', 'Express.js', 'REST APIs', 'OOP', 'C', 'DSA (Basic)'],
+    items: ['Node.js', 'Express.js', 'REST APIs', 'Python'],
   },
   {
-    cat: 'Database & Learning', Icon: Database,
+    cat: 'Database & CORE CS', Icon: Database,
     bg: 'rgba(5,150,105,0.05)', border: 'rgba(5,150,105,0.18)', iconColor: 'var(--green)',
-    items: ['MongoDB', 'Firebase', 'SQL (Basic)'],
+    items: ['MongoDB', 'Firebase', 'SQL (Basic)','OOP', 'C', 'DSA (Basic)'],
   },
   {
     cat: 'Tools & AI/ML', Icon: Sparkles,
     bg: 'rgba(8,145,178,0.05)', border: 'rgba(8,145,178,0.18)', iconColor: 'var(--accent3)',
-    items: ['Python', 'NumPy', 'Pandas', 'Git & GitHub','Postman','Matplotlib'],
+    items: ['NumPy', 'Pandas', 'Git & GitHub','Postman','Matplotlib'],
   },
 ];
 

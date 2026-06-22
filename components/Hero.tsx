@@ -20,7 +20,7 @@ const container: import('framer-motion').Variants = {
 };
 
 const highlights = [
-  '7+ months professional MERN experience',
+  '9+ months professional MERN experience',
   'Fast learner & highly adaptable',
   'Business mindset & strong debugging',
 ];
@@ -162,7 +162,7 @@ export function Hero() {
                   </div>
                   <div style={{ position: 'absolute', bottom: 12, right: -12, background: '#fff', border: '1px solid var(--border)', borderRadius: 12, padding: '10px 16px', zIndex: 2, boxShadow: 'var(--shadow)' }}>
                     <p style={{ fontSize: 11, color: 'var(--text-subtle)', marginBottom: 2, fontWeight: 600, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Experience</p>
-                    <p style={{ fontSize: 15, fontWeight: 800, color: 'var(--text)' }}>7+ months</p>
+                    <p style={{ fontSize: 15, fontWeight: 800, color: 'var(--text)' }}>9+ months</p>
                   </div>
                 </div>
               </motion.div>
@@ -191,7 +191,7 @@ export function Hero() {
                 {/* Stats row below card */}
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 10, marginTop: 12 }}>
                   {[
-                    { n: '7+', l: 'Months Exp.' }, { n: '5+', l: 'Projects' }, { n: '100%', l: 'Dedication' }
+                    { n: '9+', l: 'Months Exp.' }, { n: '5+', l: 'Projects' }, { n: '100%', l: 'Dedication' }
 
                   ].map(({ n, l }) => (
                     <div key={l} style={{ background: '#fff', border: '1px solid var(--border)', borderRadius: 10, padding: '12px 14px', textAlign: 'center', boxShadow: 'var(--shadow-sm)' }}>

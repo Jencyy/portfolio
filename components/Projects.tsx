@@ -7,7 +7,17 @@ import { fadeUp } from '@/lib/variants';
 
 const projects = [
   {
-    num: '01', title: 'Amysho (E-commerce Platform)',
+    num: '01', title: 'MockMate (AI Interview Preparation App)',
+    desc: 'AI-powered mock interview platform with role-specific questions, scoring, and feedback.',
+    problem: 'Wanted a realistic interview practice tool that generates unique questions and actually evaluates answers — not just shows sample Q&As.',
+    solution: 'Built with Next.js and Google Gemini API for dynamic question generation, NextAuth for OAuth login, and MongoDB to store user history and results.',
+    tech: ['Next.js', 'NextAuth', 'MongoDB', 'Google Gemini API', 'Tailwind CSS'],
+    live: 'https://mockmate-theta.vercel.app/',
+    github: 'https://github.com/Jencyy/', 
+    accent: 'var(--accent3)', borderc: 'rgba(37,99,235,0.18)',
+  },
+  {
+    num: '02', title: 'Amysho (E-commerce Platform)',
     desc: 'Full-stack e-commerce store with functional authentication and product management.',
     problem: 'Needed a scalable functional online store with robust authentication and product management capabilities.',
     solution: 'Developed frontend and backend integrating Firebase for real-time database management and authentication flows.',
@@ -16,7 +26,7 @@ const projects = [
     accent: 'var(--accent)', borderc: 'rgba(37,99,235,0.18)',
   },
   {
-    num: '02', title: 'Full-Featured Blog Panel',
+    num: '03', title: 'Full-Featured Blog Panel',
     desc: 'Complete blogging system for creating, managing, and interacting with blog posts securely.',
     problem: 'Users required a centralized system to create, manage, and read blogs with secure authentication.',
     solution: 'Built a complete CRUD blogging system featuring user authentication (Passport.js), comments, and image uploads.',
@@ -25,7 +35,7 @@ const projects = [
     accent: 'var(--accent2)', borderc: 'rgba(124,58,237,0.18)',
   },
   {
-    num: '03', title: 'B2B Inventory Management',
+    num: '04', title: 'B2B Inventory Management',
     desc: 'Robust inventory management system designed for businesses with full admin control panels.',
     problem: 'Businesses needed a simple, reliable way to manage active stock levels and perform detailed filtering.',
     solution: 'Developed a comprehensive stock management system with advanced filtering algorithms and admin controls.',
