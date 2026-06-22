@@ -50,7 +50,7 @@ export function Chatbot() {
       } else if (lowerInput.includes('project')) {
         response = "Jency has built an Amysho (E-commerce Platform), a Full-Featured Blog Panel, and a B2B Inventory Management UI. Check them out in the Projects section!";
       } else if (lowerInput.includes('experience') || lowerInput.includes('work')) {
-        response = "He currently works as a Web Developer at Atmiya Infosoft (7 months), handling production frontend/backend issues and optimizing ad systems.";
+        response = "He currently works as a Web Developer at Atmiya Infosoft (9+ months), handling production frontend/backend issues and optimizing ad systems.";
       } else if (lowerInput.includes('contact') || lowerInput.includes('hire') || lowerInput.includes('email')) {
         response = "You can easily reach him at jencysodvadiya@gmail.com or connect via LinkedIn!";
       }

@@ -116,13 +116,13 @@ export function Hero() {
                 >
                   View Projects <ArrowRight size={15} />
                 </Link>
-                <Link href="/resume.pdf" target="_blank" data-hover="true"
+                <a href="/Jency_Sodvadiya.pdf" download="Jency_Sodvadiya_Resume.pdf" target="_blank" data-hover="true"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: 8, height: 46, padding: '0 24px', borderRadius: 8, background: 'transparent', border: '1.5px solid var(--border-strong)', color: 'var(--text)', fontWeight: 600, fontSize: 14, textDecoration: 'none', transition: 'all 0.2s' }}
                   onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; e.currentTarget.style.background = 'var(--accent-light)'; }}
                   onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-strong)'; e.currentTarget.style.color = 'var(--text)'; e.currentTarget.style.background = 'transparent'; }}
                 >
-                  <Download size={15} /> Download CV
-                </Link>
+                  <Download size={15} /> Download Resume
+                </a>
               </motion.div>
 
               {/* Social icons */}

@@ -13,7 +13,7 @@ const projects = [
     solution: 'Built with Next.js and Google Gemini API for dynamic question generation, NextAuth for OAuth login, and MongoDB to store user history and results.',
     tech: ['Next.js', 'NextAuth', 'MongoDB', 'Google Gemini API', 'Tailwind CSS'],
     live: 'https://mockmate-theta.vercel.app/',
-    github: 'https://github.com/Jencyy/', 
+    github: 'https://github.com/Jencyy/Mockmate', 
     accent: 'var(--accent3)', borderc: 'rgba(37,99,235,0.18)',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     problem: 'Needed a scalable functional online store with robust authentication and product management capabilities.',
     solution: 'Developed frontend and backend integrating Firebase for real-time database management and authentication flows.',
     tech: ['React / Vite', 'Firebase', 'Tailwind CSS'],
-    live: '#', github: 'https://github.com/Jencyy/Amysho',
+    github: 'https://github.com/Jencyy/Amysho',
     accent: 'var(--accent)', borderc: 'rgba(37,99,235,0.18)',
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     problem: 'Users required a centralized system to create, manage, and read blogs with secure authentication.',
     solution: 'Built a complete CRUD blogging system featuring user authentication (Passport.js), comments, and image uploads.',
     tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Passport.js'],
-    live: '#', github: 'https://github.com/Jencyy/BlogPanel',
+    github: 'https://github.com/Jencyy/BlogPanel',
     accent: 'var(--accent2)', borderc: 'rgba(124,58,237,0.18)',
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     problem: 'Businesses needed a simple, reliable way to manage active stock levels and perform detailed filtering.',
     solution: 'Developed a comprehensive stock management system with advanced filtering algorithms and admin controls.',
     tech: ['MongoDB', 'Express.js', 'React', 'Node.js (MERN)'],
-    live: '#', github: 'https://github.com/Jencyy/B2Binventory',
+     github: 'https://github.com/Jencyy/B2Binventory',
     accent: 'var(--green)', borderc: 'rgba(5,150,105,0.18)',
   },
 ];
@@ -85,13 +85,15 @@ export function Projects() {
                     >
                       <Github size={13} /> Source
                     </Link>
-                    <Link href={live} target="_blank" data-hover="true"
-                      style={{ display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: 12, fontWeight: 700, color: '#fff', textDecoration: 'none', padding: '6px 12px', background: accent, borderRadius: 7, transition: 'opacity 0.2s' }}
-                      onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.85')}
-                      onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
-                    >
-                      <ExternalLink size={13} /> Live
-                    </Link>
+                    {live && (
+                      <Link href={live} target="_blank" data-hover="true"
+                        style={{ display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: 12, fontWeight: 700, color: '#fff', textDecoration: 'none', padding: '6px 12px', background: accent, borderRadius: 7, transition: 'opacity 0.2s' }}
+                        onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.85')}
+                        onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
+                      >
+                        <ExternalLink size={13} /> Live
+                      </Link>
+                    )}
                   </div>
                 </div>
 

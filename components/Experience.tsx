@@ -11,7 +11,7 @@ const experiences = [
     period: "Sep 2024 – Present",
     location: "On-site",
     type: "Full-time",
-    duration: "~7 months",
+    duration: "~9+ months",
     current: true,
     description: "Developing scalable front-end and back-end applications, integrating third-party systems, and improving overall performance.",
     bullets: [
