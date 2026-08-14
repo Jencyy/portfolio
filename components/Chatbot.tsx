@@ -43,16 +43,16 @@ export function Chatbot() {
     // Simulate AI thinking and responding
     setTimeout(() => {
       const lowerInput = userMessage.content.toLowerCase();
-      let response = "I am a demo AI! Jency will connect me to a real model soon. For now, email him directly at jencysodvadiya@gmail.com!";
-      
+      let response = "I am a demo AI! Jency will connect me to a real model soon. For now, email her directly at [EMAIL_ADDRESS]!";
+
       if (lowerInput.includes('skill') || lowerInput.includes('tech')) {
-        response = "Jency is a Full Stack Developer (MERN). His core skills include React, Node.js, MongoDB, Tailwind CSS, and he's actively learning AI/ML tools like Python, NumPy, and Pandas!";
+        response = "Jency is a Full Stack Developer (MERN). Her core skills include React, Node.js, MongoDB, Tailwind CSS, and she's actively learning AI/ML tools like Python, NumPy, and Pandas!";
       } else if (lowerInput.includes('project')) {
         response = "Jency has built an Amysho (E-commerce Platform), a Full-Featured Blog Panel, and a B2B Inventory Management UI. Check them out in the Projects section!";
       } else if (lowerInput.includes('experience') || lowerInput.includes('work')) {
-        response = "He currently works as a Web Developer at Atmiya Infosoft (9+ months), handling production frontend/backend issues and optimizing ad systems.";
+        response = "She currently works as a Web Developer at Atmiya Infosoft (12+ months), handling production frontend/backend issues and optimizing ad systems.";
       } else if (lowerInput.includes('contact') || lowerInput.includes('hire') || lowerInput.includes('email')) {
-        response = "You can easily reach him at jencysodvadiya@gmail.com or connect via LinkedIn!";
+        response = "You can easily reach her at jencysodvadiya@gmail.com or connect via LinkedIn!";
       }
 
       setMessages(prev => [...prev, { id: Date.now().toString(), role: 'assistant', content: response }]);
@@ -62,7 +62,7 @@ export function Chatbot() {
 
   return (
     <div style={{ position: 'fixed', bottom: 32, right: 32, zIndex: 9999 }}>
-      
+
       {/* Chat Window */}
       <AnimatePresence>
         {isOpen && (
@@ -100,7 +100,7 @@ export function Chatbot() {
                   </div>
                 </div>
               </div>
-              <button 
+              <button
                 onClick={() => setIsOpen(false)}
                 style={{ background: 'transparent', border: 'none', color: '#fff', cursor: 'pointer', padding: 4, borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                 onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
@@ -119,10 +119,10 @@ export function Chatbot() {
                       <Bot size={14} color="#fff" />
                     </div>
                   )}
-                  
-                  <div style={{ 
-                    padding: '12px 16px', 
-                    borderRadius: 16, 
+
+                  <div style={{
+                    padding: '12px 16px',
+                    borderRadius: 16,
                     borderTopLeftRadius: msg.role === 'assistant' ? 4 : 16,
                     borderBottomRightRadius: msg.role === 'user' ? 4 : 16,
                     background: msg.role === 'user' ? 'var(--accent)' : '#fff',
@@ -142,7 +142,7 @@ export function Chatbot() {
                   )}
                 </div>
               ))}
-              
+
               {isTyping && (
                 <div style={{ display: 'flex', gap: 12, alignItems: 'center', alignSelf: 'flex-start' }}>
                   <div style={{ width: 28, height: 28, borderRadius: 8, background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
@@ -160,17 +160,17 @@ export function Chatbot() {
 
             {/* Input Area */}
             <form onSubmit={handleSend} style={{ padding: '16px', background: '#fff', borderTop: '1px solid var(--border)', display: 'flex', gap: 10 }}>
-              <input 
-                type="text" 
+              <input
+                type="text"
                 value={input}
                 onChange={e => setInput(e.target.value)}
-                placeholder="Ask something..." 
+                placeholder="Ask something..."
                 style={{ flex: 1, padding: '12px 16px', border: '1px solid var(--border-strong)', borderRadius: 12, outline: 'none', fontSize: 14, transition: 'border-color 0.2s' }}
                 onFocus={e => e.currentTarget.style.borderColor = 'var(--accent)'}
                 onBlur={e => e.currentTarget.style.borderColor = 'var(--border-strong)'}
               />
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 disabled={!input.trim() || isTyping}
                 style={{ width: 44, height: 44, borderRadius: 12, background: input.trim() && !isTyping ? 'var(--accent)' : 'var(--border-strong)', color: '#fff', border: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: input.trim() && !isTyping ? 'pointer' : 'not-allowed', transition: 'background 0.2s' }}
               >
@@ -191,24 +191,24 @@ export function Chatbot() {
             onClick={() => setIsOpen(true)}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            style={{ 
-              width: 56, 
-              height: 56, 
-              borderRadius: 28, 
-              background: 'linear-gradient(135deg, var(--accent), var(--accent2))', 
-              border: 'none', 
-              cursor: 'pointer', 
-              display: 'flex', 
-              alignItems: 'center', 
+            style={{
+              width: 56,
+              height: 56,
+              borderRadius: 28,
+              background: 'linear-gradient(135deg, var(--accent), var(--accent2))',
+              border: 'none',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
               justifyContent: 'center',
               boxShadow: '0 8px 24px rgba(37,99,235,0.4)',
               position: 'relative'
             }}
           >
             <Sparkles size={24} color="#fff" />
-            
+
             {/* Pulsing ring indicator */}
-            <motion.div 
+            <motion.div
               animate={{ transform: ['scale(1)', 'scale(1.4)'], opacity: [0.6, 0] }}
               transition={{ duration: 2, repeat: Infinity, ease: 'easeOut' }}
               style={{ position: 'absolute', inset: -2, border: '2px solid var(--accent)', borderRadius: '50%', pointerEvents: 'none' }}

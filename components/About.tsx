@@ -5,7 +5,7 @@ import { GraduationCap, Briefcase, MapPin, Target, Sparkles } from 'lucide-react
 import { fadeUp, stagger } from '@/lib/variants';
 
 const stats = [
-  { value: '9+', label: 'Months Experience', color: 'var(--accent)' },
+  { value: '12+', label: 'Months Experience', color: 'var(--accent)' },
   { value: 'MERN', label: 'Primary Stack', color: 'var(--accent2)' },
   { value: 'AI/ML', label: 'Currently Learning', color: 'var(--green)' },
 ];
