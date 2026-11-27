@@ -8,7 +8,7 @@ const experiences = [
   {
     company: "Atmiya Infosoft",
     role: "Web Developer",
-    period: "Sep 2024 – Present",
+    period: "Sep 2025 – Oct 2026",
     location: "On-site",
     type: "Full-time",
     duration: "~12+ months",
